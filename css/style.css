@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box; /* all elements include border and padding in size */
+}
+header{
+  height: 80vh;
+  padding-top: -1rem;
+}
+#data-vis{
+  height:100vh;
+}
+body{
+  color:#535353;
+  font-family: 'Open Sans', sans-serif;
+  height:100vh;
+}
+h1, h2{
+  color:#4b2e83;
+  font-family: 'Encode Sans', sans-serif;
+}
+h1{
+  font-size: 2.5rem;
+  margin-top:3em;
+}
+#title{
+  width:35rem;
+}
+nav {
+    position: fixed;
+    top: 0;  /* 0px from the top */
+    width: 100%; /* same as parent, useful for spanning the page */
+    background-color: #4b2e83;
+    padding: .75rem;
+    margin-left:-.5rem; /*make it actually fill the page*/
+}
+#skipnav a{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:1;
+}
+
+#skipnav a:focus, #skipnav a:active {
+  position:absolute;
+  width:auto;
+  height:auto;
+  left:0%;
+  top:0%;
+  overflow: visible;
+  color: white;
+  border-style: none;
+  padding-bottom: .75rem;
+  text-decoration:none;
+  z-index: 1;
+}
+
+/*The whole unordedered list*/
+ul{
+  list-style-type: none;
+  margin: 0rem;
+  padding:.5rem 0rem;
+  display: inline-block;
+  position: relative;
+}
+
+/*properties of just the elements*/
+ul li {
+  position:relative;
+  display: inline;
+  padding-right: 1rem;
+  /*position: inherit;*/
+}
+
+/*properties of the hyperlinks*/
+ul a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.searchBox {
+  float:right;
+  /*margin-top: .5rem;*/
+  display:inline-block;
+
+}
+.searchBox input {
+  font-size:1rem;
+  padding:.5rem;
+  vertical-align: bottom;
+}
+.searchBox i{
+  font-size:1.5rem;
+  padding:.3rem 0rem;
+  margin:0rem;
+}
+ul a:hover, ul a:focus{
+  color:#b7a57a;
+  border-bottom: solid #b7a57a;
+  border-bottom-width: .6rem;
+  padding-bottom:.65rem /*line up in my browser*/
+
+}
+
+#github{
+  margin: 1000px;
+}
+.logo {
+  padding: 0em 1em;
+  display: inline;
+  background-size: contain;
+  background-position: left;
+  background-image: url('../img/ischool-symbol-white.png');
+  background-repeat: no-repeat;
+}

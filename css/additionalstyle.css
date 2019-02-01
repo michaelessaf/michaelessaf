@@ -1,0 +1,262 @@
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity .5s linear;
+}
+.appear {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+.mousewrapper{
+  position: relative;
+  padding-bottom: 2rem;
+}
+.icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  stroke: Black;
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 2px #707070;
+  border-radius: 25px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #707070;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+}
+@-moz-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+@-o-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(46px);
+  }
+}
+
+@keyframes flourish {
+  0%   {color:black; }
+  15%  {color:red; }
+  30%  {color:yellow; }
+  45%  {color:green; }
+  60% {color:blue; }
+  75% {color:purple; }
+  100% {color:black; }
+}
+.flourish{
+  /* background-color: red; */
+  animation-name: flourish;
+  animation-duration: 4s;
+  animation-delay: .25s
+}
+.secondaryflourish{
+  animation-delay: 4.25s
+}
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+header{
+  margin-top: -4rem;
+  display: flex;
+  height:100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  /*height:100%;*/
+
+  padding-top: 4rem;
+}
+nav a{
+  color:white;
+}
+h3{
+  font-family: "Futura";
+  font-size: 5rem;
+  padding-bottom: 0.5rem;
+}
+h4{
+  font-family: "silom";
+}
+h1, h2 {
+  font-family: "didot-italic";
+  font-size: 14vh;
+  text-align: center;
+}
+#gd-box{
+  margin:-1rem
+}
+p{
+  font-size: 1.25rem;
+}
+.textblock{
+  padding-top:5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+
+}
+.fa{
+  font-size: 1.5rem;
+}
+#gh-logo{
+  font-size: 8rem;
+  padding-right: 3rem;
+  color:white;
+}
+#gh-logo:hover{
+  color:Yellow;
+}
+
+.fullscrn{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-image: url("../img/visgif.gif"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#data-vis{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/visgif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#data-arrow{
+  font-size: 4rem;
+  margin-top: 7rem;
+  margin
+}
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  color: yellow;
+  text-decoration: none;
+}
+#data-vis-link{
+  color:black
+}
+#data-vis-link:hover{
+  color:yellow
+}
+#h1vis{
+  font-size: 5rem;
+  margin-bottom: 6rem;
+}
+
+#h2vis{
+  font-family: "futura";
+  font-size: 3rem;
+}
+
+#Shiny-link{
+  background-image: url("../img/visbg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  display:flex;
+   align-items: center;
+   justify-content: center;
+}
+#fire-link{
+  background-image: url("../img/mapvis.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#skipnav a{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  z-index:1;
+}
+
+#skipnav a:focus, #skipnav a:active {
+  position:absolute;
+  width:auto;
+  height:auto;
+  left:0%;
+  top:0%;
+  overflow: visible;
+  color: black;
+  border-style: none;
+  padding-bottom: .75rem;
+  text-decoration:none;
+  z-index: 1;
+}
+/* .img-fluid{
+  box-shadow: 1px 1px 3px #888888;
+} */
+
+t{
+  padding: 5rem;
+}
+
+#cube{
+    text-align: center;
+}
+
+#cubegif{
+  width: 30vh;
+  padding:3rem;
+}

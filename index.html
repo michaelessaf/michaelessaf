@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio-Michael Essaf</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/additionalstyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <link rel="icon"
+      type="image/png"
+      href="img/favi.png">
+   <meta name="keywords" content="Portfolio, Michael, Essaf, film, code, github, graphic design">
+   <meta name="author" content="Michael Essaf">
+   <meta name="description" content="Michael Essaf Portfolio">
+</head>
+
+
+<body class="bg-light">
+  <div id="skipnav"><a href="#title">Skip to Content</a></div>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Michael Essaf</a>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="vis.html">Data Visualization <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#github">Github</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#film-holder">Filmography</a>
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#graphic-design">Graphic Design</a>
+      </li> -->
+
+    </ul>
+  </div>
+</nav>
+
+  <header>
+    <div class="container-fluid py-5">
+      <h1 class="mt-5 ml-1 mr-1" id="title">A<br>Portfolio<br>by<br>Michael<br>Essaf<br></h1>
+      <div class="mousewrapper container-fluid py-5">
+        <div class='icon-scroll'></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="fullscrn container-fluid py-5">
+      <h2 id = "abtme" class = "flourish">About Me.</h2>
+      <p class ="textblock">I'm an Informatics student at University of Washington–who's
+        looking for a job, baby. I was born in Colorado and moved 7[ish?]
+        times (military families, sheesh) before I ended up in Seattle.
+        I got my start in tech at a young age when I fell in love with filmmaking.
+        Given my keen interest in visual effects and CGI, I learned a lot about computer
+        hardware (like how much I couldn't afford it) and software (see previous),
+       and made a bunch of terrible movies along the way. Cut to college and I decided I wanted to
+       know more than just graphics cards and After Effects scripts. <br><br>Now, I specialize in <span class = ' interest flourish secondaryflourish'> cloud arcitecture</span>,
+       <span class = 'interest flourish secondaryflourish'>cyber security</span>, and <span class = ' interest flourish secondaryflourish'>backend programming</span> (but I'm handy with front-end and graphic design too, hopefully it shows).</p>
+      <!-- <h4>Jump ahead:</h4>
+      <button>Software Dev</button>
+      <button>Cloud Arcitecture</button>
+      <button>Cybersecurity</button> -->
+
+    </div>
+
+    <div>
+      <div class = "container-fluid py-5">
+
+            <h2>Software Development</h2>
+            <div id = "cube">
+              <img id = "cubegif" class="img-fluid" src="img/cubeshift.gif">
+            </div>
+            <!-- <p> A <a href="https://github.com/michaelessaf">link</a> to my Github, which has a small selection of projects I've worked on, I'm still working on moving all of my projects there. This doesn't include any projects that I am under NDA for and projects that are property of the University of Washington</p> -->
+
+        <div class = "container">
+          <table class="table table-hover">
+           <thead>
+             <tr>
+               <th>Name</th>
+               <th>Description</th>
+               <th>Link</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr class='clickable-row' data-href='https://jchou8.github.io/info343-finalproject/#/login'>
+               <td>MarkIt (contributer)</td>
+               <td>Bookmark repository app implemented with React and Firebase as a team project.</td>
+               <td><i class="fa fa-external-link" aria-label="link to live site"></i></td>
+             </tr>
+
+             <tr class='clickable-row' data-href='https://info343b-a17.github.io/data-explorer-michaelessaf/'>
+               <td>Seattle 🔥 Dept Live</td>
+               <td>Pulls live data from Seattle Fire Dept and renders a map that shows 911 calls near the marker</td>
+               <td><i class="fa fa-external-link" aria-label="link to live site"></i></td>
+             </tr>
+             <tr class='clickable-row' data-href='https://info343b-a17.github.io/game-michaelessaf-1/'>
+               <td>4Pong</td>
+               <td>Twist on "Pong", you play with 4 paddles! Experimenting with HTML Canvas graphics and Javascript</td>
+               <td><i class="fa fa-external-link" aria-label="link to live site"></i></td>
+             </tr>
+             <tr class='clickable-row' data-href='https://github.com/info343b-a17/exercise08-michaelessaf/tree/master/problem-bc'>
+               <td>Twitter Clone</td>
+               <td>React based with Firebase backend. Users can sign in, chrip, and like other's chrips.</td>
+               <td><i class="fa fa-github" aria-label="link to github"></i></td>
+             </tr>
+             <tr class='clickable-row' data-href='https://github.com/michaelessaf/Smart-Mirror'>
+               <td>Smart Mirror (contributer)</td>
+               <td>Forked smart mirror software and redid the graphics(including making a gif player) and added a section for live data from my bus route</td>
+               <td><i class="fa fa-github" aria-label="link to github"></i></td>
+             </tr>
+             <tr class='clickable-row' data-href=''>
+               <td>Character Frequency Analysis</td>
+               <td>Java Program that decryts messages via character frequency analysis</td>
+               <td><i class="fa fa-code" style="color:#595858;" aria-label="link to github"></i></td>
+             </tr>
+             <tr class='clickable-row' data-href=''>
+               <td>XSS Writeup & Web App Design Labs</td>
+               <td>Writeup on Cross Site Scripting attacks on a vulnerable dummy website and a schematic for a secure web app done as labs for a cybersecurity class</td>
+               <td><i class="fa fa-code" style="color:#595858;" aria-label="link to github"></i></td>
+             </tr>
+           </tbody>
+          </table>
+        </div>
+      </div>
+     </div>
+
+    <!-- <div id="data-vis" class="container-fluid py-5">
+      <div class="container">
+      <a href="vis.html" id="data-vis-link">
+      <div class="row">
+          <h3 class="mt-5 mb-5 col-sm">Data Visualizations</h3>
+          <i class="fa fa-arrow-circle-right col-sm" aria-hidden="true" id="data-arrow"></i>
+      </div>
+        </a>
+
+
+      <p>A collection of coding projects from the last two years that are notable, live, and interactive. Check out this interactive Data Visualization made with Tableau and <a href="https://joshkeating.shinyapps.io/info-201-coursegrades/">this one</a> made with R and Shiny!</p>
+      </div>
+    </div> -->
+    <div id="fire-link" class="container-fluid py-5">
+      <div class="container">
+      <h2 id="h2vis" class="mt-5 mb-5">
+        <a href="https://info343b-a17.github.io/data-explorer-michaelessaf/">This one</a> was made with React and the Google Maps API
+      </h2>
+      <p> It pulls live 911 data from the Seattle Police Department and renders recent calls near the marker on the map</p>
+    </div>
+    </div>
+  <div id="Shiny-link" class="container-fluid py-5">
+    <div class="container">
+    <h2 id="h2vis" class="mt-5 mb-5">
+      <a href="https://joshkeating.shinyapps.io/info-201-coursegrades/">This one</a> was made with R and Shiny!
+    </h2>
+    <p> It shows the distribution of GPA by class size, quarter, and course with a couple of interactive Visualizations</p>
+  </div>
+    </div>
+
+
+    <!-- <div id="film-holder" class="container-fluid bg-dark text-light">
+      <div class="container py-4">
+      <h3 class="mt-3 mb-3">Filmography</h3>
+      <iframe src="https://player.vimeo.com/video/235610571" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p class="mt-3 mb-5">This is my most recent project, a video documenting Tokyo, shot on a Sony A7s. Here is a link to my <a href="https://vimeo.com/solarfrostmedia">Vimeo</a>, which has my reel and a few other projects from my 6 years of filmmaking experience.</p>
+    </div>
+    </div>
+
+
+    <div id="graphic-design" class ="container py-4">
+      <h3> Graphic Design </h3>
+        <p> Motion graphics and Graphic design work I've done, much which was for UW's Marketing and Communcations team.</p>
+      <div id="gd-box"class="container mt-5">
+          <div class="row no-gutters">
+            <div class="col col-lg-4 mb-4">
+              <img src="img/hue.gif" class="img-fluid" alt="animated hue title gif">
+              <p class="card-text px-3"> A cascading hue gif that I made for a basic python video game </p>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+            <img src="img/Havana.gif" class="img-fluid" alt="Havana animation">
+            <p class="card-text px-3">A graphic I masked out and animated in After Effects as a social media piece for the UW </p>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+              <img src="img/DD.jpg" class="img-fluid" alt="Dine Digital logo">
+              <p class="card-text px-3">A logo for a ficticious company called Dine Digital</p>
+            </div>
+    </div>
+  </div>
+  </div> -->
+
+
+
+</div>
+</main>
+
+  <footer class="bg-dark text-muted">
+      <p>&copy; 2017 Michael Essaf.</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+</html>
