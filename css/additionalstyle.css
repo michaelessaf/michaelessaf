@@ -118,7 +118,7 @@ nav a{
   color:white;
 }
 h3{
-  font-family: "Futura";
+  font-family: "didot-italic";
   font-size: 5rem;
   padding-bottom: 0.5rem;
 }
@@ -183,9 +183,19 @@ a {
   text-decoration: none;
 }
 a:hover{
-  color: yellow;
   text-decoration: none;
+  animation-name: flourish;
+  animation-duration: 3s;
+  animation-delay: 0s;
 }
+
+i:hover{
+  text-decoration: none;
+  animation-name: flourish;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
 #data-vis-link{
   color:black
 }
@@ -198,7 +208,7 @@ a:hover{
 }
 
 #h2vis{
-  font-family: "futura";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 3rem;
 }
 
@@ -259,4 +269,30 @@ t{
 #cubegif{
   width: 30vh;
   padding:3rem;
+}
+
+.iconcontainer{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexicn{
+  flex-basis: 3rem;
+  font-size: 3rem;
+  padding:5rem;
+}
+
+#letstalk{
+  font-size: 10vh;
+}
+
+main{
+  min-height: 100vh;
+}
+#footer{
+  border:solid;
+}
+.socialicn{
+  color:#3d3d3d
 }

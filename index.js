@@ -35,7 +35,14 @@ jQuery(document).ready(function($) {
         });
 });
 
-
+$("a").hover(
+  function () {
+    $(this).addClass('flourish');
+  },
+  function () {
+    $(this).removeClass('flourish');
+  }
+  );
 
 $.fn.isOnScreen = function(){
 
